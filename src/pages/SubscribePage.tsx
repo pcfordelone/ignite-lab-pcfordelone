@@ -1,9 +1,9 @@
 import { ChangeEvent, FormEvent, useState } from 'react'
-import { Logo } from '../components/Logo'
 import { useCreateSubscriberMutation } from '../graphql/generated'
 import { useNavigate } from 'react-router-dom'
+import { Logo } from '../components/Logo'
+import EventFooterImg from '/scr/assets/home-code_mockup.png'
 import { Footer } from '../components/Footer'
-import EventFooterImg from '../assets/home-code_mockup.png'
 
 export const SubscribePage = () => {
   const navigate = useNavigate()
